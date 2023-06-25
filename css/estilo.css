@@ -51,11 +51,15 @@
     
 }
 
-/* .highlight{
+.highlight{
     border-bottom: 4px solid var(--red);
-} */
+}
 
 @media screen and (max-width: 768px){
+    .highlight{
+        border-bottom: none;
+    }
+
     .navbar{
         width: 100%;
     }
@@ -152,7 +156,7 @@
     .HeroItems{
         width: 100%;
     }   
-    }
+}
 
 .HeroH1{
     font-size: clamp(2.5rem, 10vw, 5rem);
